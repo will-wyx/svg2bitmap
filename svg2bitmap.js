@@ -14,6 +14,12 @@ function svg2bitmap (svgDom, type, cb) {
   canvas.width = svgDom.clientWidth
   canvas.height = svgDom.clientHeight
 
+  // 除 png 格式需要填充背景
+  if (type !== 'image/png') {
+    ctx.fillStyle = 'white'
+    ctx.fillRect(0, 0, canvas.width, canvas.height)
+  }
+
   // 创建图片元素
   const image = new Image()
   image.onload = () => {

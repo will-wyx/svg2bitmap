@@ -2,7 +2,7 @@
 
 svg 元素转位图格式 dataURL
 
-支持转成 `image/png` 格式的 dataURL
+支持转成 `image/png`、`image/jpeg` 格式的 dataURL
 
 ## 使用
 
