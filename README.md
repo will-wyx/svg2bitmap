@@ -25,3 +25,5 @@ svg2bitmap(document.getElementById('svg'), 'image/png', (dataURL) => {
 4. canvas 嵌入 Image
 5. canvas 转 dataURL
 
+## 示例
+* [Demo](https://will-wyx.github.io/svg2bitmap/)
