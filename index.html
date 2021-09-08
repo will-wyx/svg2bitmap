@@ -124,7 +124,7 @@
     <script src="svg2bitmap.js"></script>
     <script>
     (() => {
-      svg2bitmap(document.getElementById('svg'), 'image/jpeg', (dataURL) => {
+      svg2bitmap(document.getElementById('svg'), 'image/webp', (dataURL) => {
         const img = document.getElementById('img')
         img.src = dataURL
       })
